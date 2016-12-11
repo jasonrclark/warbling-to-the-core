@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jruby-jars (9.1.6.0)
+    jruby-rack (1.1.20)
+    rake (12.0.0)
+    rubyzip (1.2.0)
+    shoes-core (4.0.0.pre7)
+    warbler (2.0.4)
+      jruby-jars (>= 9.0.0.0)
+      jruby-rack (>= 1.1.1, < 1.3)
+      rake (>= 10.1.0)
+      rubyzip (~> 1.0, < 1.4)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  shoes-core (= 4.0.0.pre7)
+  warbler
+
+BUNDLED WITH
+   1.13.6
